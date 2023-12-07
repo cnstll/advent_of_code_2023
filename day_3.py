@@ -14,7 +14,6 @@ def sum_of_part_numbers(engine_schematic):
         is_part_number = False
         current_number = ''
         for j in range(len(schematic[i])):
-            print(j)
             if schematic[i][j].isdigit():
                 current_number += schematic[i][j]
                 for x in range(-1, 2):
